@@ -1,4 +1,4 @@
-# Data-Structures-Algorithms-
+# Data Structures Algorithms 
 ### To-do
 - [ ] Bubble Sort
 - [ ] Selection Sort
