@@ -1,5 +1,5 @@
 # Data-Structures-Algorithms-
 
-- [] Bubble Sort
-- [] Selection Sort
-- [] Insertion Sort
+- [ ] Bubble Sort
+- [ ] Selection Sort
+- [ ] Insertion Sort
