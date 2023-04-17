@@ -3,3 +3,4 @@
 - [ ] Bubble Sort
 - [ ] Selection Sort
 - [ ] Insertion Sort
+- [ ] Weighted/Unweighted Median
