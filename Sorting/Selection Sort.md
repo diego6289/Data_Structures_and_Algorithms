@@ -1,10 +1,10 @@
-## Selection Sort
+# Selection Sort
 
 ```c++
 
 ```
 
-# Time Complexity
+## Time Complexity
 
 Best Case: $O(n)$
 
@@ -12,5 +12,5 @@ Average Case: $O(n^2)$
 
 Worst Case: $O(n^2)$
 
-# Space Complexity
+## Space Complexity
 $O(1)$
