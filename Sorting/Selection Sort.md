@@ -16,10 +16,10 @@ for (int i = 0; i < n - 1; i++) {
         }
 ```
 
-- Works by repeatedly selecting the smallest (or largest) element from the unsorted position of the list and moving it to the sorted position of the list
-- Unstable
-- In-place
-- Best for small datasets
+- Works by repeatedly selecting the smallest (or largest) element from the unsorted position of the list and moving it to the sorted position of the list.
+- Unstable.
+- In-place.
+- Best for small datasets.
 
 ## Time Complexity
 
