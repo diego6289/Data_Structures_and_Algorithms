@@ -6,6 +6,9 @@
 
 ```
 
+- Works by repeatedly selecting the smallest (or largest) element from the unsorted position of the list and moving it to the sorted position of the list.
+- Unstable Algorithm 
+
 ## Time Complexity
 
 Best Case: $O(n)$
