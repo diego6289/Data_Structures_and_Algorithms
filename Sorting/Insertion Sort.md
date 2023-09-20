@@ -15,14 +15,14 @@ for (int i = 0; i < n - 1; i++) {
 }
 ```
 
-- Works by repeatedly selecting the smallest (or largest) element from the unsorted position of the list and moving it to the sorted position of the list.
-- Unstable.
+- Works similar to the way you sort playing cards in your hand. The array is virtually split into a sorted and an unsorted part. Values from the unsorted part are picked and placed at the correct position in the sorted part.
+- Stable.
 - In-place.
-- Best for small datasets.
+- Best for small datasets or datasets that are already partially sorted.
 
 ## Time Complexity
 
-Best Case: $O(n^2)$
+Best Case: $O(n)$
 
 Average Case: $O(n^2)$
 
