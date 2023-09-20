@@ -16,7 +16,9 @@ for (int i = 0; i < n - 1; i++) {
 ```
 
 - Works by repeatedly swapping adjacent elements if they are in the wrong order.
-- Stable Algorithm (Maintains the relative order of the items with equal sort keys)
+- Stable Algorithm (Maintains the relative order of the items with equal sort keys).
+- In-place.
+- Best for small datasets.
 
 ## Time Complexity
 
