@@ -15,7 +15,7 @@ for (int i = 0; i < n - 1; i++) {
 - Works by repeatedly swapping adjacent elements if they are in the wrong order.
 - Stable Algorathim (Maintains the relative order of the items with equal sort keys)
 
-Time Complexity
+#Time Complexity
 Best Case: O(n)
 Average Case: O(n^2)
 Worst Case: O(n^2)
