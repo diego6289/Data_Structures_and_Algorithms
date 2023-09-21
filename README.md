@@ -1,8 +1,13 @@
 ## Data Structures and Algorithms 
 ### To-do
-- [x] Bubble Sort
-- [x] Selection Sort
 - [ ] Insertion Sort
+- [ ] Cyclic Sort
+- [ ] Bucket Sort
+- [ ] Merge Sort
+- [ ] Quick Sort
+- [ ] Heap Sort
+- [ ] Counting Sort
+- [ ] Heaps
 - [ ] Weighted/Unweighted Median
 - [ ] Dynamic Array / Vector Class
 - [ ] Binary Search Tree
@@ -13,3 +18,4 @@
 - [ ] Monotonic Stack
 - [ ] Queue
 - [ ] Monotonic Queue
+- [ ] Red Black Tree
