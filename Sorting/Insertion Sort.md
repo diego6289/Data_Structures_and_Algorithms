@@ -2,15 +2,11 @@
 
 
 ```c++
-for (int i = 0; i < n - 1; i++) {
-    int idx = i;
-    for (int j = i + 1; j < n; j++) {
-        if (nums[j] < nums[idx]) {
-            idx = j;
-        }
-    }
-    if (idx != i) {
-        swap(nums[i], nums[idx]);
+for (int i = 1; i < n; i++) {
+    int j = i - 1;
+    while (j >= 0 && nums[j] > nums[j + 1]) {
+        swap(nums[j], nums[j + 1]);
+        j--;
     }
 }
 ```
