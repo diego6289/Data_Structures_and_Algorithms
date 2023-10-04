@@ -12,19 +12,19 @@ The main idea behind the sliding window technique is to convert two nested loops
 This is done by maintaining a sliding window, which is a subarray of the original array that is of a fixed size. The algorithm then iterates over the original array, updating the sliding window as it goes. This allows the algorithm to keep track of a contiguous sequence of elements in the original array, without having to iterate over the entire array multiple times.
 
 Both fixed and variable window sliding window problems can use the techniques of hashing, two pointers, and sliding window optimization.
-a.Hashing is a common technique for tracking the elements in a sliding window. This is because a hash table can quickly and efficiently look up the presence of an element in the window.
-b.Two pointers is another common technique for tracking the elements in a sliding window. This is because two pointers can easily track the start and end of the window.
-c.Sliding window optimization is a technique that combines hashing and two pointers to improve the performance of the sliding window algorithm. This is done by using hashing to quickly look up the presence of an element in the window, and using two pointers to track the start and end of the window.
+
+a. Hashing is a common technique for tracking the elements in a sliding window. This is because a hash table can quickly and efficiently look up the presence of an element in the window.
+b. Two pointers is another common technique for tracking the elements in a sliding window. This is because two pointers can easily track the start and end of the window.
+c. Sliding window optimization is a technique that combines hashing and two pointers to improve the performance of the sliding window algorithm. This is done by using hashing to quickly look up the presence of an element in the window, and using two pointers to track the start and end of the window.
 The choice of technique for solving a sliding window problem depends on the specific problem and the constraints of the problem. For example, if the sliding window is small, then hashing may be a good choice. However, if the sliding window is large, then two pointers may be a better choice.
 
 Lets discuss How to identify Fixed and variable size Window
 
-1.Fixed Window:
+1. Fixed Window:
 
 In a fixed window problem, we have a predefined window size that remains constant throughout the problem-solving process.
 The template for solving a fixed window problem involves maintaining two pointers, low and high, that represent the indices of the current window.
 The process involves iterating over the array or sequence, adjusting the window as necessary, and performing computations or operations on the elements within the window.
-Here's the template
 
 fixed_window() {
     int low = 0, high = 0, windowsize = k;
@@ -39,13 +39,12 @@ fixed_window() {
             // Window size is now equal to the desired window size
             // Step 2a: Calculate the answer based on the elements in the window
             // Step 2b: Remove the oldest element (at low index) from the window for the next window
-
             // Proceed to the next window by incrementing the low and high indices
         }
     }
 }
 
-2. variable window
+2. Variable window
 
 In a variable window problem,the window size is not fixed and can change dynamically based on certain conditions or criteria. The template for solving a variable window problem involves maintaining two pointers, start and end, which represent the indices of the current window.
 
