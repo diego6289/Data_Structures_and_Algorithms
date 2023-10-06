@@ -21,7 +21,6 @@ Both fixed and variable window sliding window problems can use the techniques of
 
 ## Fixed Window:
 
-
 In a fixed window problem, we have a predefined window size that remains constant throughout the problem-solving process. The template for solving a fixed window problem involves maintaining two pointers, low and high, that represent the indices of the current window. The process involves iterating over the array or sequence, adjusting the window as necessary, and performing computations or operations on the elements within the window.
 
 ```c++
