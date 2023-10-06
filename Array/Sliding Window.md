@@ -1,3 +1,5 @@
+# Sliding Window
+
 The Sliding Window Technique is a problem-solving technique that is used to
 
 1. Running Average: Use a sliding window to efficiently calculate the average of a fixed-size window as new elements arrive in a stream of data.
