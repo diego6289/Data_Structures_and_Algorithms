@@ -19,7 +19,7 @@ Both fixed and variable window sliding window problems can use the techniques of
 - Two pointers is another common technique for tracking the elements in a sliding window. This is because two pointers can easily track the start and end of the window.
 - Sliding window optimization is a technique that combines hashing and two pointers to improve the performance of the sliding window algorithm. This is done by using hashing to quickly look up the presence of an element in the window, and using two pointers to track the start and end of the window.
 
-1. Fixed Window:
+## Fixed Window:
 
 In a fixed window problem, we have a predefined window size that remains constant throughout the problem-solving process. The template for solving a fixed window problem involves maintaining two pointers, low and high, that represent the indices of the current window. The process involves iterating over the array or sequence, adjusting the window as necessary, and performing computations or operations on the elements within the window.
 
@@ -43,7 +43,7 @@ fixed_window() {
 }
 ```
 
-2. Variable window
+## Variable Window
 
 In a variable window problem,the window size is not fixed and can change dynamically based on certain conditions or criteria. The template for solving a variable window problem involves maintaining two pointers, start and end, which represent the indices of the current window.
 
