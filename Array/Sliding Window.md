@@ -10,7 +10,7 @@ The Sliding Window Technique is a problem-solving technique that is used to
 
 4. Longest/Shortest/Most Optimal Sequence: Sliding windows are handy when you need to find the longest, shortest, or most optimal sequence that satisfies a given condition in a collection. By sliding a window through the collection and tracking relevant information within it, you can identify the desired sequence more efficiently than scanning the entire collection.
 
-The main idea behind the sliding window technique is to convert two nested loops into a single loop. Usually, the technique helps us to reduce the time complexity from $O(n²)$ or $O(n³)$ to $O(n)$.
+The main idea behind the sliding window technique is to convert two nested loops into a single loop. Usually, the technique helps us to reduce the time complexity from $O(n^2)$ or $O(n^3)$ to $O(n)$.
 This is done by maintaining a sliding window, which is a subarray of the original array that is of a fixed size. The algorithm then iterates over the original array, updating the sliding window as it goes. This allows the algorithm to keep track of a contiguous sequence of elements in the original array, without having to iterate over the entire array multiple times.
 
 Both fixed and variable window sliding window problems can use the techniques of hashing, two pointers, and sliding window optimization.
