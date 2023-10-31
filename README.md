@@ -1,6 +1,5 @@
 ## Data Structures and Algorithms 
 ### To-do
-- [ ] Insertion Sort
 - [ ] Cyclic Sort
 - [ ] Bucket Sort
 - [ ] Merge Sort
